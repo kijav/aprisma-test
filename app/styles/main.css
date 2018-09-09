@@ -1,0 +1,175 @@
+/* Space out content a bit */
+body {
+    padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.nav>li.active>a {
+text-decoration: none;
+background-color: #eee;
+}
+
+.navbar-brand {
+  margin-top: -3px;
+}
+
+.navbar-aprisma {
+  background-color: #337ab7;
+  z-index: 999;
+}
+
+.navbar-notification a.dropdown-toggle {
+  color: #ffffff;
+}
+
+.avatar-dropdown a.dropdown-toggle {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navbar-aprisma .nav>li>a:focus, .navbar-aprisma .nav>li>a:hover{
+  color: #d9534f;
+  background-color: transparent;
+}
+
+.navbar-aprisma .nav .open>a, .navbar-aprisma .nav .open>a:focus, .navbar-aprisma .nav .open>a:hover {
+  color: #d9534f;
+  background-color: #3583c7;
+}
+.navbar-top-links li.avatar-dropdown a {
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 45px;
+}
+.avatar-img {
+  border-radius: 50%;
+  width: 40px;
+}
+.avatar-label {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  width: 200px;
+  margin-left: -210px;
+  text-align: right;
+  margin-top: 2px;
+}
+.avatar-subtitle {
+  color: #65a2d8
+}
+
+.subnavbar-aprisma {
+  z-index: 998;
+}
+
+.dashboard-title {
+  font-size: 30px;
+}
+
+.dashboard-subtitle {
+  color: #999999;
+}
+
+.customize-dashboard-button {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  margin-right: 10px;
+}
+.profile-label {
+  display: inline-block;
+}
+.profile-companyname {
+  font-size: 30px;
+  font-weight: bold;
+}
+.profile-name {
+  font-size: 20px;
+}
+
+.flex-hor-center {
+  display: flex;
+  align-items: center;
+}
+
+.float-clear {
+  clear: both;
+}
